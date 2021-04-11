@@ -1,0 +1,4 @@
+/Users/mariasmirnova/Documents/study/testlab/obj/Debug/netcoreapp3.1/testlab.csprojAssemblyReference.cache
+/Users/mariasmirnova/Documents/study/testlab/obj/Debug/netcoreapp3.1/testlab.AssemblyInfoInputs.cache
+/Users/mariasmirnova/Documents/study/testlab/obj/Debug/netcoreapp3.1/testlab.AssemblyInfo.cs
+/Users/mariasmirnova/Documents/study/testlab/obj/Debug/netcoreapp3.1/testlab.csproj.CoreCompileInputs.cache
