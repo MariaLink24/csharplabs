@@ -60,7 +60,10 @@ class Program{
         // var grouped = stcl.AverageMarkGroup(4);
         // Console.WriteLine("grouped: ", grouped.ToString());
 
-        TestCollections tc = new TestCollections();
+        TestCollections tc = new TestCollections(3);
+        tc.findElementInList();
+        tc.findElemetKeyDictionary();
+        tc.findEdlemetValueDictionary();
         
 
 

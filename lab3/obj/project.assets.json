@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/labb3/testlab.csproj",
+      "projectUniqueName": "/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab3/testlab.csproj",
       "projectName": "testlab",
-      "projectPath": "/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/labb3/testlab.csproj",
+      "projectPath": "/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab3/testlab.csproj",
       "packagesPath": "/Users/mariasmirnova/.nuget/packages/",
-      "outputPath": "/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/labb3/obj/",
+      "outputPath": "/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab3/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mariasmirnova/.nuget/NuGet/NuGet.Config"

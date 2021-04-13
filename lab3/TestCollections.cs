@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Text;
+
 class TestCollections{
    private  List<Person> plist;
    private List<string> slist;
@@ -14,60 +16,123 @@ class TestCollections{
    
         public TestCollections(int n)
         {
-         plist = new List<Person>(n);
-         slist = new List<string>(n);
-         dperson = new Dictionary<Person, Student>(n);
-         dstring = new Dictionary<string, Student>(n);
+         plist = new List<Person>();
+         slist = new List<string>();
+         dperson = new Dictionary<Person, Student>();
+         dstring = new Dictionary<string, Student>();
+
+         for (int i = 0; i <= n; i++)
+            {
+                StringBuilder str_build = new StringBuilder();  
+                Random random = new Random();  
+                str_build.Append(Convert.ToChar(Convert.ToInt32(Math.Floor(25 * random.NextDouble())) + 65)); 
+                Person randPerson = new Person(str_build.ToString(), str_build.ToString(), new DateTime());
+                Student randStudent = new Student(randPerson, Education.Bachelor, 1);
+                
+                StringBuilder str_build2 = new StringBuilder();  
+                Random random2 = new Random();  
+                str_build2.Append(Convert.ToChar(Convert.ToInt32(Math.Floor(25 * random2.NextDouble())) + 65)); 
+                Person randPerson2 = new Person(str_build2.ToString(), str_build2.ToString(), new DateTime());
+                Student randStudent2 = new Student(randPerson2, Education.Bachelor, 1);
+
+                plist.Add(randPerson);
+                slist.Add(str_build.ToString());
+                dperson.Add(randPerson, randStudent);
+                dstring.Add(str_build.ToString(), randStudent2);
+            }
         
         }
 
-        public void SearchTheElem(int size)
+        public void findElementInList()
         {
-            Student s = new Student();
-            int startOfOperation = Environment.TickCount;
-            if (editions.Contains(mag3.MyMethod))
+            Person randomPerson = new Person("ewfv", "erwfv", new DateTime());
+            int start1 = Environment.TickCount;
+            if (plist.Contains(plist[0]))
             {
-                int finalOperation = Environment.TickCount - startOfOperation;
-                Console.WriteLine("В списке Эдишн содержится {0} элемент, время: {1}", size, finalOperation);
+                int end1 = Environment.TickCount - start1;
+                Console.WriteLine("plist содержит 1й элемент {0}, время поиска  {1}", plist[1], end1);
             }
- 
-            int startOfOperation2 = Environment.TickCount;
-            if (List1.Contains(mag3.MyMethod.ToString()))
+            int start2 = Environment.TickCount;
+
+             if (plist.Contains(plist[plist.Count/2]))
             {
-                int finalOperation2 = Environment.TickCount - startOfOperation2;
-                Console.WriteLine("В списке Стринг содержится {0} элемента, время: {1}", size, finalOperation2);
+                int end2 = Environment.TickCount - start2;
+                Console.WriteLine("plist содержит центральный элемент {0}, время поиска  {1}", plist[plist.Count/2], end2);
             }
- 
-            int startOfOperation3 = Environment.TickCount;
-            if (Dict.ContainsKey(mag3.MyMethod))
+            int start3 = Environment.TickCount;
+
+             if (plist.Contains(plist[plist.Count-1]))
             {
-                int finalOperation3 = Environment.TickCount - startOfOperation3;
-                Console.WriteLine("В списке DictKey содержится {0} элемента, время: {1}", size, finalOperation3);
+                int end3 = Environment.TickCount - start3;
+                Console.WriteLine("plist содержит последний элемент {0}, время поиска  {1}", plist[plist.Count-1], end3);
             }
- 
-            int startOfOperation4 = Environment.TickCount;
-            if (Dict.ContainsValue(mag3))
+            int start4 = Environment.TickCount;
+
+             if (plist.Contains(randomPerson))
             {
-                int finalOfOperation4 = Environment.TickCount - startOfOperation4;
-                Console.WriteLine("В списке DictValue содержится {0} элемента, время: {1}", size, finalOfOperation4);
+                int end4 = Environment.TickCount - start4;
+                Console.WriteLine("plist содержит элемент не из коллекции {0}, время поиска  {1}", randomPerson, end4);
             }
- 
-            int startOfOperation5 = Environment.TickCount;
-            if (List2.ContainsKey(mag3.MyMethod.ToString()))
+           
+        }
+
+        public void findElemetKeyDictionary(){
+            Person p = new Person("hfjekw", "fkwe", new DateTime());
+            Student randomSt = new Student(p, Education.SecondEducation, 2);
+             int start1 = Environment.TickCount;
+            if (dperson.ContainsKey(dperson[plist[0]]))
             {
-                int finalOfOperation5 = Environment.TickCount - startOfOperation5;
-                Console.WriteLine("В списке List2Key содержится {0} элемента, время: {1}", size, finalOfOperation5);
+                int end1 = Environment.TickCount - start1;
+                Console.WriteLine("dperson содержит key 1 элемента {0}, время поиска  {1}", dperson[plist[0]], end1);
             }
- 
-            int startOfOperation6 = Environment.TickCount;
-            if (List2.ContainsValue(mag3))
+            int start2 = Environment.TickCount;
+            if (dperson.ContainsKey(dperson[plist[plist.Count/2]]))
             {
-                int finalOfOperation6 = Environment.TickCount - startOfOperation6;
-                Console.WriteLine("В списке List2Value содержится {0} элемента, время: {1}", size, finalOfOperation6);
+                int end2 = Environment.TickCount - start2;
+                Console.WriteLine("dperson содержит key центрального элемента {0}, время поиска  {1}", dperson[plist[plist.Count/2]], end2);
+            }
+            int start3 = Environment.TickCount;
+            if (dperson.ContainsKey(dperson[plist[plist.Count-1]]))
+            {
+                int end3 = Environment.TickCount - start3;
+                Console.WriteLine("dperson содержит key последнего элемента {0}, время поиска  {1}", dperson[plist[plist.Count-1]], end3);
+            }
+            int start4 = Environment.TickCount;
+            if (dperson.ContainsKey(randomSt))
+            {
+                int end4 = Environment.TickCount - start4;
+                Console.WriteLine("dperson содержит key элемента не из коллекции {0}, время поиска  {1}", randomSt, end4);
+            }
+
+        }
+
+        public void findEdlemetValueDictionary(){
+            Student randomSt = new Student();
+            int start1 = Environment.TickCount;
+            if (dperson.ContainsValue(dperson[plist[0]]))
+            {
+                int end1 = Environment.TickCount - start1;
+                Console.WriteLine("dperson содержит value 1 элемента {0}, время поиска  {1}", dperson[plist[0]], end1);
+            }
+            int start2 = Environment.TickCount;
+            if (dperson.ContainsValue(dperson[plist[plist.Count/2]]))
+            {
+                int end2 = Environment.TickCount - start2;
+                Console.WriteLine("dperson содержит value центрального элемента {0}, время поиска  {1}", dperson[plist[plist.Count/2]], end2);
+            }
+            int start3 = Environment.TickCount;
+            if (dperson.ContainsValue(dperson[plist[plist.Count-1]]))
+            {
+                int end3 = Environment.TickCount - start3;
+                Console.WriteLine("dperson содержит value последнего элемента {0}, время поиска  {1}", dperson[plist[plist.Count-1]], end3);
+            }
+            int start4 = Environment.TickCount;
+            if (dperson.ContainsValue(randomSt))
+            {
+                int end4 = Environment.TickCount - start4;
+                Console.WriteLine("dperson содержит value элемента не из коллекции {0}, время поиска  {1}", randomSt, end4);
             }
  
         }
     }
      
-
-}
