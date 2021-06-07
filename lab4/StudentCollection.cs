@@ -3,9 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-class StudentCollection  {
+class StudentCollection<TKey>  {
 
 private static List<Student> studentList;
+private static Dictionary<TKey, Student> studentDictionary = new Dictionary<TKey, Student>;
+private static KeySelector<TKey> key;
+
+
 
 public double maxMean {
     get {return studentList.Max(s=> s.meanValue);}
@@ -17,6 +21,10 @@ public IEnumerable<Student> specialists {
 
 public StudentCollection(){
     studentList = new List<Student>();
+}
+
+public StudentCollection(KeySelector<TKey> k){
+  key = k;
 }
 public void AddDefaults(){
     studentList.Add(new Student());
