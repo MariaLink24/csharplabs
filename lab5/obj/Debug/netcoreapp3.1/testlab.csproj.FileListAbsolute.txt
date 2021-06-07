@@ -1,0 +1,40 @@
+/Users/mariasmirnova/Documents/study/testlab/obj/Debug/netcoreapp3.1/testlab.csprojAssemblyReference.cache
+/Users/mariasmirnova/Documents/study/testlab/obj/Debug/netcoreapp3.1/testlab.AssemblyInfoInputs.cache
+/Users/mariasmirnova/Documents/study/testlab/obj/Debug/netcoreapp3.1/testlab.AssemblyInfo.cs
+/Users/mariasmirnova/Documents/study/testlab/obj/Debug/netcoreapp3.1/testlab.csproj.CoreCompileInputs.cache
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab2/bin/Debug/netcoreapp3.1/testlab.deps.json
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab2/bin/Debug/netcoreapp3.1/testlab.runtimeconfig.json
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab2/bin/Debug/netcoreapp3.1/testlab.runtimeconfig.dev.json
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab2/bin/Debug/netcoreapp3.1/testlab.dll
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab2/bin/Debug/netcoreapp3.1/testlab.pdb
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab2/obj/Debug/netcoreapp3.1/testlab.csprojAssemblyReference.cache
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab2/obj/Debug/netcoreapp3.1/testlab.AssemblyInfoInputs.cache
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab2/obj/Debug/netcoreapp3.1/testlab.AssemblyInfo.cs
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab2/obj/Debug/netcoreapp3.1/testlab.csproj.CoreCompileInputs.cache
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab2/obj/Debug/netcoreapp3.1/testlab.dll
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab2/obj/Debug/netcoreapp3.1/testlab.pdb
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab2/obj/Debug/netcoreapp3.1/testlab.genruntimeconfig.cache
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/labb3/bin/Debug/netcoreapp3.1/testlab.deps.json
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/labb3/bin/Debug/netcoreapp3.1/testlab.runtimeconfig.json
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/labb3/bin/Debug/netcoreapp3.1/testlab.runtimeconfig.dev.json
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/labb3/bin/Debug/netcoreapp3.1/testlab.dll
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/labb3/bin/Debug/netcoreapp3.1/testlab.pdb
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/labb3/obj/Debug/netcoreapp3.1/testlab.csprojAssemblyReference.cache
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/labb3/obj/Debug/netcoreapp3.1/testlab.AssemblyInfoInputs.cache
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/labb3/obj/Debug/netcoreapp3.1/testlab.AssemblyInfo.cs
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/labb3/obj/Debug/netcoreapp3.1/testlab.csproj.CoreCompileInputs.cache
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/labb3/obj/Debug/netcoreapp3.1/testlab.dll
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/labb3/obj/Debug/netcoreapp3.1/testlab.pdb
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/labb3/obj/Debug/netcoreapp3.1/testlab.genruntimeconfig.cache
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab3/bin/Debug/netcoreapp3.1/testlab.deps.json
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab3/bin/Debug/netcoreapp3.1/testlab.runtimeconfig.json
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab3/bin/Debug/netcoreapp3.1/testlab.runtimeconfig.dev.json
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab3/bin/Debug/netcoreapp3.1/testlab.dll
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab3/bin/Debug/netcoreapp3.1/testlab.pdb
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab3/obj/Debug/netcoreapp3.1/testlab.csprojAssemblyReference.cache
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab3/obj/Debug/netcoreapp3.1/testlab.AssemblyInfoInputs.cache
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab3/obj/Debug/netcoreapp3.1/testlab.AssemblyInfo.cs
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab3/obj/Debug/netcoreapp3.1/testlab.csproj.CoreCompileInputs.cache
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab3/obj/Debug/netcoreapp3.1/testlab.dll
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab3/obj/Debug/netcoreapp3.1/testlab.pdb
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab3/obj/Debug/netcoreapp3.1/testlab.genruntimeconfig.cache
