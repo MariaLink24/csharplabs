@@ -7,8 +7,8 @@ class Student : Person, IDateAndCopy, IEnumerable{
         private Person person;
         private Education education;
         private int group;
-        private List<Exam> examArr;
-        private List<Test> testArr;
+        private List<Exam> examArr = new List<Exam>();
+        private List<Test> testArr = new List<Test>();
 
 
          public Education educationType {
@@ -188,5 +188,22 @@ class Student : Person, IDateAndCopy, IEnumerable{
         {
          return new StudenEnumerator(this);
     }
+
+       public void SortBySubject()
+        {
+            examArr.Sort(delegate (Exam x, Exam y)
+            {
+                return x.subject.CompareTo(y.subject);
+            });
+        }
+        public void SortByGrade()
+        {
+            examArr.Sort(new ExamComparer());
+            
+        }
+        public void SortByDate()
+        {
+            examArr.Sort(new ExamComparer());
+        }
 
 }

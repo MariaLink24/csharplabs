@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab3/testlab.csproj": {}
+    "/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab 5/testlab.csproj": {}
   },
   "projects": {
-    "/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab3/testlab.csproj": {
+    "/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab 5/testlab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab3/testlab.csproj",
+        "projectUniqueName": "/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab 5/testlab.csproj",
         "projectName": "testlab",
-        "projectPath": "/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab3/testlab.csproj",
+        "projectPath": "/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab 5/testlab.csproj",
         "packagesPath": "/Users/mariasmirnova/.nuget/packages/",
-        "outputPath": "/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab3/obj/",
+        "outputPath": "/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab 5/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mariasmirnova/.nuget/NuGet/NuGet.Config"
+          "/Users/mariasmirnova/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

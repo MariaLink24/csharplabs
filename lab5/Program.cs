@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Diagnostics;
 using System.Collections.Generic;
+using testlab;
 
 public  enum Education {Specialist, Bachelor, SecondEducation}
 
@@ -12,64 +13,41 @@ class Program{
         Person p2 = new Person();
      
         Student s1 = new Student(p1, Education.Bachelor, 1);
-
-        Exam cs = new Exam();
-        Exam math = new Exam("math", 4, new DateTime(2021-5-6));
-        Exam physics = new Exam("physics", 4, new DateTime(2021-5-7));
-        Exam[] exams = new Exam[3];
-        exams[0]= cs;
-        exams[1]= math;
-        exams[2]= physics;
-        List<Exam> examsList = new List<Exam>();
-        examsList.AddRange(exams);    
-        s1.AddExams(examsList);
-
-        Test t = new Test();
-        Test[] tests = new Test[1];
-        tests[0] = t;
-        List<Test> testsList = new List<Test>();
-        testsList.AddRange(tests);    
-        s1.AddTests(testsList);
-     
         Student s2 = new Student();
-        Exam ex1 = new Exam();
-        Exam[] exams2 = new Exam[1];
-        exams2[0]= ex1;
-        List<Exam> examsList2 = new List<Exam>();
-        examsList2.AddRange(exams);    
-        s1.AddExams(examsList2);
+      
+   
+        Person p3 = new Person();
+        Person p4 = new Person();
+
+        Student s3 = new Student(p3, Education.Bachelor, 1);
+        Student s4 = new Student(p4, Education.Specialist, 2);
 
 
-       StudentCollection stcl = new StudentCollection();
-       Student[] st = new Student[2];
+        StudentCollection<Student> stcl = new StudentCollection<Student>();
+        StudentCollection<Student> stcl2 = new StudentCollection<Student>();
+       
+
+        Journal j1 = new Journal();
+        Journal j2 = new Journal();
+
+        stcl.StudentChanged += j1.handler;
+        stcl2.StudentChanged += j2.handler;
+
+
+        Student[] st = new Student[2];
         st[0] = s1;
         st[1] = s2;
         stcl.AddStudents(st);
 
-        Console.WriteLine(stcl.ToString());
-        stcl.compareByMeanValue();
-        Console.WriteLine("compareByMeanValue " + stcl.ToShortString());
-        stcl.compareByLastName();
-        Console.WriteLine("compareByLastName " + stcl.ToShortString());
-        stcl.compareByBirthdate();
-        Console.WriteLine("compareByBirthdate " + stcl.ToShortString());
+        Student[] st2 = new Student[2];
+        st2[0] = s3;
+        st2[1] = s4;
+        stcl2.AddStudents(st2);
 
-        Console.WriteLine("max mean value: " + stcl.maxMean);
-        Console.WriteLine("specialists: " + stcl.specialists.ToString());
-         
-        // var grouped = stcl.AverageMarkGroup(4);
-        // Console.WriteLine("grouped: ", grouped.ToString());
+        stcl.Remove(0);
+        stcl.Replace(s2, s3);
 
-        TestCollections tc = new TestCollections(3);
-        tc.findElementInList();
-        tc.findElemetKeyDictionary();
-        tc.findEdlemetValueDictionary();
-        
-
-
-
-
-
-
+        Console.WriteLine(j1);
+        Console.WriteLine(j2);
     }
 }

@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 class Exam : IDateAndCopy, IComparable, IComparer<Exam> {
         public string subject;
         public int grade;
@@ -35,9 +36,8 @@ class Exam : IDateAndCopy, IComparable, IComparer<Exam> {
             return (object)copiedExam;
         }
 
-        public int CompareTo(){
-            Exam e = obj as Exam;
-            return this.last.CompareTo(e.last);
+        public int CompareTo(object obj){
+            return subject.CompareTo(((Exam)obj).subject);
         }
 
          public int Compare(Exam x, Exam y)
