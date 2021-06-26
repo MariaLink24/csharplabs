@@ -6,7 +6,7 @@ using System.Linq;
 class StudentCollection<TKey>  {
 
 private static List<Student> studentList;
-private static Dictionary<TKey, Student> studentDictionary = new Dictionary<TKey, Student>;
+private static Dictionary<TKey, Student> studentDictionary = new Dictionary<TKey, Student>();
 private static KeySelector<TKey> key;
 
 

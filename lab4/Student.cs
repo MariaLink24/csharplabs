@@ -189,19 +189,19 @@ class Student : Person, IDateAndCopy, IEnumerable{
          return new StudenEnumerator(this);
     }
 
-       public void SortBySubhect()
+       public void SortBySubject()
         {
             examArr.Sort(delegate (Exam x, Exam y)
             {
                 return x.subject.CompareTo(y.subject);
             });
         }
-        public void ArtSortByGrade()
+        public void SortByGrade()
         {
             examArr.Sort(new ExamComparer());
             
         }
-        public void ArtSortByDate()
+        public void SortByDate()
         {
             examArr.Sort(new ExamComparer());
         }

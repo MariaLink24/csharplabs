@@ -46,7 +46,7 @@ class TestCollections<TKey,TValue>{
         
         }
 
-public  bool FindInlist(TKey key)
+       public  bool FindInlist(TKey key)
         {
            return plist.Contains(key);
         }
