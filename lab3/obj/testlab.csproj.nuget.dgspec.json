@@ -14,7 +14,7 @@
         "outputPath": "/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab3/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mariasmirnova/.nuget/NuGet/NuGet.Config"
+          "/Users/mariasmirnova/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

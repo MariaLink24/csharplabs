@@ -1,16 +1,11 @@
-﻿<Properties StartupConfiguration="{C4D0A772-4C99-4661-BBB0-7B3B2CC51942}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+﻿<Properties StartupConfiguration="{1673D66F-352C-488E-A6E3-C31730863A26}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test.cs">
     <Files>
-      <File FileName="Program.cs" Line="76" Column="1" />
-      <File FileName="TestCollections.cs" Line="1" Column="1" />
-      <File FileName="Exam.cs" Line="1" Column="1" />
-      <File FileName="ExamComparer.cs" Line="1" Column="1" />
-      <File FileName="Student.cs" Line="17" Column="11" />
-      <File FileName="StudentCollection.cs" Line="13" Column="1" />
-      <File FileName="StudentComparator.cs" Line="1" Column="1" />
+      <File FileName="Person.cs" Line="1" Column="1" />
+      <File FileName="Student.cs" Line="1" Column="1" />
       <File FileName="StudentEnumerator.cs" Line="1" Column="1" />
-      <File FileName="Person.cs" Line="15" Column="15" />
-      <File FileName="KeySelector.cs" Line="1" Column="29" />
+      <File FileName="Exam.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
       <File FileName="Test.cs" Line="1" Column="1" />
     </Files>
     <Pads>
@@ -18,7 +13,7 @@
         <State name="__root__">
           <Node name="testlab" expanded="True">
             <Node name="testlab" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Test.cs" selected="True" />
             </Node>
           </Node>
         </State>
