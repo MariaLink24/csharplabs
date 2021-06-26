@@ -1,0 +1,2 @@
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab6/testlab/testlab/obj/Debug/testlab.csprojAssemblyReference.cache
+/Users/mariasmirnova/Documents/study/2020-2021-2 семестр/c#/lab6/testlab/testlab/obj/Debug/testlab.csproj.CoreCompileInputs.cache
